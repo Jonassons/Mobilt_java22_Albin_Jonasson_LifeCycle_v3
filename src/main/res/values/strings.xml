@@ -1,0 +1,9 @@
+<resources>
+    <string name="hint_age">Age</string>
+    <string name="checkbox_driver_license">Do you have a driver\'s license?</string>
+    <string name="radio_button_option1">Option 1</string>
+    <string name="radio_button_option2">Option 2</string>
+    <string name="hint_email">Email</string>
+    <string name="button_save">Save</string>
+</resources>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Add any other necessary permissions here -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@color/common_google_signin_btn_text_dark_default"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lifecycle"
+        tools:targetApi="31">
+
+        <!-- MainActivity -->
+        <activity
+            android:name="com.example.lifecycle.LoginActivity"
+            android:exported="true"
+            android:icon="@drawable/myicon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SecondActivity -->
+        <activity
+            android:name="com.example.lifecycle.ProfileActivity"
+            android:exported="true">
+        </activity>
+
+
+
+
+    </application>
+</manifest>
